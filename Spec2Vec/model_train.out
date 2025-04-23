@@ -1,0 +1,34 @@
+train_model
+  Epoch 1 of 10.Change in loss after epoch 1: 1130157.5
+  Epoch 2 of 10.Change in loss after epoch 2: 1163278.0
+  Epoch 3 of 10.Change in loss after epoch 3: 954654.0
+  Epoch 4 of 10.Change in loss after epoch 4: 612620.5
+  Epoch 5 of 10.Change in loss after epoch 5: 764840.5
+  Epoch 6 of 10.Change in loss after epoch 6: 670222.5
+  Epoch 7 of 10.Change in loss after epoch 7: 517112.5
+  Epoch 8 of 10.Change in loss after epoch 8: 433397.0
+  Epoch 9 of 10.Change in loss after epoch 9: 501894.5
+  Epoch 10 of 10.Change in loss after epoch 10: 437226.0
+Saving model with name: orbitrap.model
+  Epoch 1 of 10.Change in loss after epoch 1: 3359168.5
+  Epoch 2 of 10.Change in loss after epoch 2: 2528242.5
+  Epoch 3 of 10.Change in loss after epoch 3: 2042805.0
+  Epoch 4 of 10.Change in loss after epoch 4: 1694059.0
+  Epoch 5 of 10.Change in loss after epoch 5: 2123420.0
+  Epoch 6 of 10.Change in loss after epoch 6: 1886187.0
+  Epoch 7 of 10.Change in loss after epoch 7: 1852141.0
+  Epoch 8 of 10.Change in loss after epoch 8: 2002053.0
+  Epoch 9 of 10.Change in loss after epoch 9: 1943310.0
+  Epoch 10 of 10.Change in loss after epoch 10: 1758054.0
+Saving model with name: qtof.model
+  Epoch 1 of 10.Change in loss after epoch 1: 4076594.5
+  Epoch 2 of 10.Change in loss after epoch 2: 3170093.0
+  Epoch 3 of 10.Change in loss after epoch 3: 2357173.5
+  Epoch 4 of 10.Change in loss after epoch 4: 2740639.0
+  Epoch 5 of 10.Change in loss after epoch 5: 1819798.0
+  Epoch 6 of 10.Change in loss after epoch 6: 2723064.0
+  Epoch 7 of 10.Change in loss after epoch 7: 2307338.0
+  Epoch 8 of 10.Change in loss after epoch 8: 2253418.0
+  Epoch 9 of 10.Change in loss after epoch 9: 1651252.0
+  Epoch 10 of 10.Change in loss after epoch 10: 2133974.0
+Saving model with name: other.model
