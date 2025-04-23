@@ -86,3 +86,7 @@ for i, index in enumerate(indices[:, 0]):
 ```
 
 注明: 在 windows 平台上进行测试时，计算余弦相似度矩阵会出现数值错误的情况，注释掉 @njit 装饰器数值就恢复正常。如果有使用该平台进行测试时需要注释掉 numba 的所有装饰器
+
+### 3. Web 服务
+
+我们也为用户提供了一个 web 服务，每个人都可以通过访问网址 [SpecEmbedding](https://huggingface.co/spaces/xp113280/SpecEmbeeding) 使用。

@@ -113,3 +113,7 @@ for i, index in enumerate(indices[:, 0]):
 ```
 
 Note: When testing on the Windows platform, numerical errors may occur when computing the cosine similarity matrix. Commenting out the @njit decorator resolves this issue. If testing on this platform, ensure to comment out all Numba decorators.
+
+### 3.Web Server
+
+We also provide a web server for the users. Everyone can visit the website [SpecEmbedding](https://huggingface.co/spaces/xp113280/SpecEmbeeding)
