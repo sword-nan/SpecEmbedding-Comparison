@@ -39,7 +39,7 @@ model = SiameseModel(
     dim_target=512,
     feedward_activation="selu"
 )
-model_state = torch.load("./model.ckpt", mmap=device)
+model_state = torch.load("./model.ckpt", device)
 model.load_state_dict(model_state)
 tester = ModelTester(model, device, True)
 q, _ = embedding(tester, tokenizer, 512, q, True)
@@ -73,7 +73,7 @@ model = SiameseModel(
     dim_target=512,
     feedward_activation="selu"
 )
-model_state = torch.load("./model.ckpt", mmap=device)
+model_state = torch.load("./model.ckpt", device)
 model.load_state_dict(model_state)
 tester = ModelTester(model, device, show_progress_bar)
 q, _ = embedding(tester, tokenizer, 512, q_spectra, show_progress_bar)

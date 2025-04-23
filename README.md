@@ -46,7 +46,7 @@ model = SiameseModel(
 )
 
 # Load the pre-trained model state
-model_state = torch.load("./model.ckpt", mmap=device)
+model_state = torch.load("./model.ckpt", device)
 model.load_state_dict(model_state)
 
 # Initialize the ModelTester
@@ -93,7 +93,7 @@ model = SiameseModel(
 )
 
 # Load the pre-trained model state
-model_state = torch.load("./model.ckpt", mmap=device)
+model_state = torch.load("./model.ckpt", device)
 model.load_state_dict(model_state)
 
 # Initialize the ModelTester
